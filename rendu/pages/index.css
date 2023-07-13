@@ -1,0 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   index.css                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abittel <abittel@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/08/10 20:38:45 by rahmed            #+#    #+#             */
+/*   Updated: 2022/08/18 23:10:44 by abittel          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body
+{
+	background-image: url(/loc_img/Back42original.jpg);
+	/* background-image: url(img/Back42FHD.jpg); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+}

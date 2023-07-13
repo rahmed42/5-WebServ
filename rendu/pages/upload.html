@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>UPLOAD WEBSERV 42</title>
+		<link rel="stylesheet" href="/loc_pages/index.css">
+	</head>
+
+	<body>
+		<h2>Subscribe :</h2>
+		<form action="http://localhost:6969/test7/cgi.php" method="post">
+			<input type="text" name="name" id="name">
+			<input type="text" name="name2" id="name2">
+			<input type="submit" value="Subscribe!">
+		</form>
+		<h2>Select files to upload</h2>
+		<form name="upload" method="post" enctype="multipart/form-data" action="/test3">
+			<input type="file" name="image/files" id="image/files" accept="" maxlength="1024"><br>
+			<input type="submit" name="submit" value="Upload">
+			<input type="hidden" name="test" value="value">
+		</form>
+			<p style="text-align: left; vertical-align: middle; background-color: transparent;">
+				<a href="/test">
+					<span style="font-family: Helvetica,Arial,sans-serif;">
+						<input name="GO TO INDEX" value="GO TO INDEX" type="button">
+					</span>
+				</a>
+			</p>
+	</body>
+
+</html>
